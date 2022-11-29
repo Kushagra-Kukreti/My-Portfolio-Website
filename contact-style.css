@@ -1,0 +1,207 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik&display=swap');
+
+:root {
+    --theme: #680362;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+nav {
+    display: flex;
+    background-color: white;
+    color: white;
+    height: 15vh;
+    justify-content: center;
+    border-bottom: 0.3vw solid rgb(245, 243, 243);
+
+}
+
+nav ul a {
+    text-decoration: none;
+    color: white;
+    margin-right: 2vw;
+    margin-left: 1vw;
+    margin-top: 2.4vw;
+    font-family: 'Rubik', sans-serif;
+    color: black;
+}
+
+nav ul {
+    height: 2vw;
+}
+
+nav ul a:hover {
+    color: grey;
+    cursor: pointer;
+}
+
+.main {
+    display: flex;
+    /* background-color: blue; */
+    height: 60vh;
+}
+
+.content {
+    margin-top: 2vw;
+    width: 57vw;
+    display: flex;
+    flex-direction: column;
+    margin-left: 4vw;
+    border: 0.3vw solid var(--theme);
+    border-radius: 1vw;
+    height: 20vw;
+}
+
+.main img {
+    height: 60vh;
+    margin-top: 3vw;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+}
+
+.hi {
+    /* background-color: blueviolet; */
+    font-size: 3vw;
+}
+
+.name {
+    /* background-color: blanchedalmond; */
+    font-weight: bolder;
+    font-family: 'Rubik', sans-serif;
+    font-size: 6vw;
+}
+
+
+.info {
+    display: flex;
+    flex-direction: column;
+    margin-top: 5vw;
+    margin-left: -4vw;
+    font-family: 'Rubik', sans-serif;
+    font-size: xxx-large;
+}
+
+.des {
+    font-size: 2vw;
+}
+
+.button {
+    margin: 5px 18px 0px -3px;
+    font-size: 1.4vw;
+    font-weight: bold;
+    background: var(--theme);
+    color: white;
+    padding: 1.6vw;
+    margin-top: 2vw;
+    border-radius: 1vw;
+    cursor: pointer;
+    border-color: white;
+}
+
+.title {
+    position: absolute;
+    margin-left: -78vw;
+    font-size: 2.5vw;
+    margin-top: 1vw;
+    display: flex;
+    font-weight: bold;
+}
+
+.content h1 {
+    font-family: 'Rubik', sans-serif;
+    margin-top: 1vw;
+    margin-left: 1.5vw;
+}
+
+.port {
+    color: black;
+}
+
+.folio {
+    color: var(--theme);
+    margin-left: 0.2vw;
+}
+
+.intro {
+    display: flex;
+}
+
+.lastname {
+    color: var(--theme);
+    margin-left: 0.5vw;
+}
+
+.contact {
+    background-color: white;
+    border-color: var(--theme);
+    color: black;
+}
+
+img {
+    border-radius: 3vw;
+}
+
+.first {
+    display: flex;
+}
+
+.second {
+    display: flex;
+}
+
+.third {
+    display: flex;
+    flex-direction: column;
+}
+
+form {
+    margin-top: 2vw;
+    display: flex;
+    flex-direction: column;
+}
+
+.form {
+    border: 0;
+    border-bottom: 0.01vw solid black;
+    margin-right: 2vw;
+    width: 25vw;
+    margin-bottom: 2vw;
+    margin-left: 1.5vw;
+}
+
+.message {
+    width: 53vw;
+}
+
+.submit {
+    width: 7vw;
+    background-color: var(--theme);
+    color: white;
+    font-size: 1vw;
+    padding: 1vw;
+    font-weight: bold;
+    border-radius: 1vw;
+    border-color: var(--theme);
+    margin-top: 9.5vw;
+    margin-left: 1.2vw;
+    position: absolute;
+}
+.submit:hover{
+    width: 7vw;
+    background-color: white;
+    color: black;
+    font-size: 1vw;
+    padding: 1vw;
+    font-weight: bold;
+    border-radius: 1vw;
+    border-color: var(--theme);
+    margin-top: 9.5vw;
+    margin-left: 1.2vw;
+    position: absolute;
+}

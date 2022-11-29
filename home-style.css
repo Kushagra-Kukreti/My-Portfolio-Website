@@ -1,0 +1,156 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik&display=swap');
+
+:root {
+    --theme: #680362;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+nav {
+    display: flex;
+    background-color: white;
+    color: white;
+    height: 15vh;
+    justify-content: center;
+    border-bottom: 0.3vw solid rgb(245, 243, 243);
+
+}
+
+nav ul a {
+    text-decoration: none;
+    color: white;
+    margin-right: 2vw;
+    margin-left: 1vw;
+    margin-top: 2.4vw;
+    font-family: 'Rubik', sans-serif;
+    color: black;
+}
+
+nav ul {
+    height: 2vw;
+}
+
+nav ul a:hover {
+    color: grey;
+    cursor: pointer;
+}
+
+.main {
+    display: flex;
+    /* background-color: blue; */
+    height: 60vh;
+}
+
+.content {
+    /* background-color: antiquewhite; */
+    width: 62vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    justify-items: center;
+}
+
+.main img {
+    height: 62vh;
+    margin-top: 4vw;
+    position: absolute;
+    right: 7vw;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+}
+
+.hi {
+    /* background-color: blueviolet; */
+    font-size: 3vw;
+}
+
+.name {
+    /* background-color: blanchedalmond; */
+    font-weight: bolder;
+    font-family: 'Rubik', sans-serif;
+    font-size: 6vw;
+}
+
+
+.info {
+    display: flex;
+    flex-direction: column;
+    margin-top: 5vw;
+    margin-left: -4vw;
+    font-family: 'Rubik', sans-serif;
+    font-size: xxx-large;
+}
+
+.des {
+    font-size: 2vw;
+}
+
+.button {
+    margin: 5px 18px 0px -3px;
+    font-size: 1.4vw;
+    font-weight: bold;
+    background: var(--theme);
+    color: white;
+    padding: 1.6vw;
+    margin-top: 2vw;
+    border-radius: 1vw;
+    cursor: pointer;
+    border-color: white;
+}
+
+.title {
+    position: absolute;
+    margin-left: -78vw;
+    font-size: 2.5vw;
+    margin-top: 1vw;
+    display: flex;
+    font-weight: bold;
+}
+
+.port {
+    color: black;
+}
+
+.folio {
+    color: var(--theme);
+    margin-left: 0.2vw;
+}
+
+.intro {
+    display: flex;
+}
+
+.lastname {
+    color: var(--theme);
+    margin-left: 0.5vw;
+}
+
+.contact {
+    background-color: white;
+    border-color: var(--theme);
+    color: black;
+}
+
+img {
+    border-radius: 3vw;
+}
+
+.nav button {
+    margin-top: 0vw;
+    padding: 1vw;
+    font-size: 1.5vw;
+    border-radius: 0.6vw;
+    font-family: 'Rubik', sans-serif;
+}
+
+.nav {
+    position: absolute;
+    margin-right: -73vw;
+    margin-top: 1vw;
+}
